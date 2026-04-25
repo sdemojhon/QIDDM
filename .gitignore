@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Word lock files
+~$*.docx
+~$*.doc
+
+# Build / dist
+build/
+dist/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Optional log files
+*.log
+results/full_exp_log.txt
